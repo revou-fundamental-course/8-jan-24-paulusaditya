@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/katik3.png" rel="shorcut icon">
+</head>
+<body>
+    <header>
+        <h1>Katik | Kalkulator Matematik</h1>
+    </header>
+
+    <section class="container">
+        <h2>Haii Ka Dhea & Admin RevoU lainnya! Selamat datang di Katik !</h2>
+        <h4>Sebuah Web Apps Sederhana Yang Berfungsi untuk Menghitung Nilai Luas dan Keliling Persegi</h4>
+        
+        <div class="card">
+            <h3>Persegi</h3>
+            <img class= "persegi" src="img/Persegi.jpeg">
+            <b>Rumus Luas Persegi yaitu: S x S </b>
+            <br>
+            <b>Rumus Keliling Persegi yaitu: 4 x S </b>
+            <p>Di mana:</p>
+            <p>L = Luas</p>
+            <p>K = Keliling</p>
+            <p>S = Sisi</p>
+            <p>Nilai Sisi : </p>
+            <input type="number" id="sisi" placeholder="Masukkan nilai sisi">
+            <button onclick="hitungLuasPersegi()">Hitung Luas Persegi</button>
+            <button onclick="hitungKelilingPersegi()">Hitung Keliling Persegi</button>
+            <p>Hasil:</p>
+            <p id="luas"></p>
+            <p id="keliling"></p>
+            <button onclick="resetInput()">Reset</button>
+        </div>
+    </section>
+
+    <footer>
+        <h5>
+            Made by : Paulus Aditya Wicaksono
+        </h5>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
