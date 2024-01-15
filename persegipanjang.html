@@ -14,30 +14,33 @@
 
     <section class="container">
         <h2>Haii Ka Dhea & Admin RevoU lainnya! Selamat datang di Katik !</h2>
-        <h4>Sebuah Web Apps Sederhana Yang Berfungsi untuk Menghitung Nilai Luas dan Keliling Persegi</h4>
+        <h4>Sebuah Web Apps Sederhana Yang Berfungsi untuk Menghitung Nilai Luas dan Keliling Persegi Panjang</h4>
 
         <button onclick="halamanini()" class="persegibutton" id="persegi"> Persegi</button>
 
         <button onclick="halamanpersegipanjang()" class="persegipanjangbutton" id="persegipanjang"> Persegi Panjang</button>
         
         <div class="card">
-            <h3>Persegi</h3>
-            <img class= "persegi" src="img/Persegi.jpeg">
-            <b>Rumus Luas Persegi yaitu: S x S </b>
+            <h3>Persegi Panjang</h3>
+            <img class= "persegi" src="img/persegipanjang.jpeg">
+            <b>Rumus Luas Persegi Panjang yaitu: Panjang x Lebar </b>
             <br>
-            <b>Rumus Keliling Persegi yaitu: 4 x S </b>
+            <b>Rumus Keliling Persegi Panjang yaitu: 2 x (Panjang+Lebar) </b>
             <p>Di mana:</p>
             <p>L = Luas</p>
             <p>K = Keliling</p>
-            <p>S = Sisi</p>
-            <p>Nilai Sisi : </p>
-            <input type="number" id="sisi" placeholder="Masukkan nilai sisi">
-            <button onclick="hitungLuasPersegi()">Hitung Luas Persegi</button>
-            <button onclick="hitungKelilingPersegi()">Hitung Keliling Persegi</button>
+            <p>P = Panjang</p>
+            <p>L = Lebar</p>
+            <p>Nilai Panjang : </p>
+            <input type="number" id="panjang" placeholder="Masukkan Nilai Panjang">
+            <p>Nilai Lebar : </p>
+            <input type="number" id="lebar" placeholder="Masukkan Nilai Lebar">
+            <button onclick="hitungLuasPersegiPanjang()">Hitung Luas Persegi Panjang</button>
+            <button onclick="hitungKelilingPersegiPanjang()">Hitung Keliling Persegi Panjang</button>
             <p>Hasil:</p>
-            <p id="luas"></p>
-            <p id="keliling"></p>
-            <button class="resetbutton" onclick="resetInput1()">Reset</button>
+            <p id="luaspersegipanjang"></p>
+            <p id="kelilingpersegipanjang"></p>
+            <button class="resetbutton" onclick="resetInput2()">Reset</button>
         </div>
     </section>
 

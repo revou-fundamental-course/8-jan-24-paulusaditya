@@ -76,7 +76,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 19%;
+    width: 25%;
     border-radius: 30px;
 }
 
@@ -89,4 +89,37 @@ h5 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     color: #7734dc;
+}
+
+.resetbutton {
+    margin-right: 30px;
+    background-color: yellowgreen;
+}
+
+.persegibutton {
+    background-color: #1badd6;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.persegipanjangbutton {
+    background-color: #1badd6;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
